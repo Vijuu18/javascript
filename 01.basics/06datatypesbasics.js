@@ -20,3 +20,23 @@ const myfun= function(){
 }
 
 console.log(typeof bignum);
+
+
+// about stack and heap memory
+
+let myname ="vijay";
+let othername= myname;
+myname="vinay";
+console.log(myname);
+console.log(othername); // its a stack memory where we use copy of a datatype
+
+let user1={
+    email:"vp@.com",
+    upi:"vp@ybl",
+}
+let user2 = user1
+user2.email="vinay@p.com"
+console.log(user1.email);
+console.log(user2.email);
+
+
