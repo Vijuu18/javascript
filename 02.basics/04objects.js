@@ -61,7 +61,7 @@ const {courseInstructor:instructor}= course
 
 console.log(instructor);
 
-//format of jason
+//format of JSON
 // {
 //     "name":"vijay",
 //     "id":123,
