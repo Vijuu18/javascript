@@ -1,6 +1,6 @@
 // const month=3
 const month="march"
-// ctrl + alt + down key  for duplicte
+// shift + alt + down key  for duplicte
 switch (month) {
     case "jan":               // number ki gajah string bhi likh sakte h,compare karne ke liye
         console.log("jan");
