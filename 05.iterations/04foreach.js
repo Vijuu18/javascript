@@ -21,3 +21,23 @@ array.forEach( (item,index,arr)=>{
     console.log(item,index,arr);
     
 } )
+
+const myarray=[
+    {
+        language:"javascript",
+        filename:"js"
+    },
+    {
+        language:"java",
+        filename:"java"
+    },
+    {
+        language:"python",
+        filename:"py"
+    }
+]
+
+myarray.forEach( (item)=>{
+    console.log(item.language);
+    
+} )
