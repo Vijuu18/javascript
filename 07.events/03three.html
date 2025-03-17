@@ -15,15 +15,16 @@
         console.log("vijju",Date.now());
         
     }
-    
+    let intervalid;
+
     document.querySelector('#start').addEventListener('click',function(){
-        setInterval(saydate,2000);
+        intervalid=setInterval(saydate,500);
         console.log("start");
         
     })
 
     document.querySelector('#stop').addEventListener('click', function(){
-        clearInterval(saydate);
+        clearInterval(intervalid);
         console.log("STOP");
         
     })
