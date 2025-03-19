@@ -88,18 +88,18 @@ async function consumepromisefive(){
 consumepromisefive()
 
 
-// async function getallluser(){
-//     try {
-//         const response= await fetch('https://jsonplaceholder.typicode.com/users')
-//         const data = await response.json()                                   
-//         console.log(data);                 // await = data process hone me jo time lagta h use hone dena
+async function getallluser(){
+    try {
+        const response= await fetch('https://jsonplaceholder.typicode.com/users')
+        const data = await response.json()                                   
+        console.log(data);                 // await = data process hone me jo time lagta h use hone dena
         
-//     } catch (error) {
-//         console.log("E: ",error);
+    } catch (error) {
+        console.log("E: ",error);
         
-//     }
-// }
-// getallluser()
+    }
+}
+getallluser()
 
 // Another way of fetching the data from api 
 fetch('https://jsonplaceholder.typicode.com/users')
